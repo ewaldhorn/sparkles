@@ -1,6 +1,8 @@
 # Sparkles
 Show bright spots in the video feed using Go and TinyGo.
 
+![Screen Shot](./screenshot.png "Screenshot")
+
 ## What is this
 Sparkles is a simple tool I originally built in JavaScript to make it easy to
 see where the brighest spots of a video feed is. This is used to better position
