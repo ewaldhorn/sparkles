@@ -3,6 +3,10 @@ Show bright spots in the video feed using Go and TinyGo.
 
 ![Screen Shot](./screenshot.png "Screenshot")
 
+## Demo
+
+The app is live at <https://ewaldhorn.github.io/sparkles/>
+
 ## What is this
 Sparkles is a simple tool I originally built in JavaScript to make it easy to
 see where the brighest spots of a video feed is. This is used to better position
