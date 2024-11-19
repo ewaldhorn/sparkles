@@ -42,3 +42,9 @@ tasks:
       - task setupTinyGoExecJS
       - tinygo build -no-debug -target wasm -o {{.OUTPUT_FOLDER}}{{.PROJECT_NAME}}.wasm ./src/.
     silent: true
+  debug:
+    desc: Builds a debug WASM binary with TinyGo
+    cmds:
+      - task setupTinyGoExecJS
+      - tinygo build -target wasm -o {{.OUTPUT_FOLDER}}{{.PROJECT_NAME}}.wasm ./src/.
+    silent: true
